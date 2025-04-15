@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: pattern_library
+    password: pattern_library
+    url: jdbc:mysql://localhost:3306/pattern_library
+    
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql : true
+    defer-datasource-initialization: true
+    
+  sql:
+    init:
+      mode: never
+      
+      
